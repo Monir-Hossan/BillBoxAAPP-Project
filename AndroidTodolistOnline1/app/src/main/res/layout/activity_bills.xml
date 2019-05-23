@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/someid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:background="@color/colorVt"
+
+  android:layout_gravity="center"
+    android:padding="15dp"
+    tools:context="com.example.dell.androidtodolistonline1.BillsActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="BILLBOX"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#000080"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+    style="@style/Base.Widget.AppCompat.Button.Colored"
+
+    />
+
+
+
+        <Button
+            android:id="@+id/btn"
+            android:onClick="callForData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorRed"
+            android:text="New Bill"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+           />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/deuButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Due Bill"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorRed"
+
+
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+    <Button
+        android:id="@+id/priButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAID BIL"
+        android:textSize="35dp"
+        android:textColor="@color/colorRed"
+
+
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:background="@color/colorPrimaryDark"
+
+
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+    <ListView
+        android:layout_weight="10"
+        android:id="@+id/billListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ListView>
+
+
+
+</LinearLayout>
+
+
+

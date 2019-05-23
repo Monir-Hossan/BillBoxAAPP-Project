@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorVt"
+    android:orientation="vertical"
+    tools:context="com.example.dell.androidtodolistonline1.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Account Details"
+                android:textAlignment="center"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text=" MeterAccount"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=":"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/txtAccountNo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text="ACCOUNT HERE"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEW BILL"
+                android:textSize="30dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="3dp"
+                android:onClick="getDetails"
+                android:textStyle="italic"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorRed"
+                style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+
+            <Button
+                android:id="@+id/deuButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Due Bill"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorRed"
+                android:onClick="NewMeter"
+
+
+                android:background="@color/colorPrimaryDark" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+
+            <Button
+                android:id="@+id/priButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PAID BIL"
+                android:textSize="30dp"
+                android:textColor="@color/colorRed"
+
+
+                android:layout_marginTop="30dp"
+                android:textStyle="italic"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="MainPageActivity"
+
+
+                style="@style/Base.Widget.AppCompat.Button.Colored" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

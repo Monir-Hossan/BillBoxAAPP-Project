@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorVt"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context="com.example.dell.androidtodolistonline1.MainPageActivity"
+    tools:showIn="@layout/app_bar_main_page">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="BILLBOX"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#000080"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/newButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Bill"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorRed"
+        android:onClick="BillsActivity"
+
+
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+
+        />
+    <Button
+        android:id="@+id/deuButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Due Bill"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorRed"
+        android:onClick="BillPage"
+
+
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+    <Button
+        android:id="@+id/priButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAID BIL"
+        android:textSize="35dp"
+        android:textColor="@color/colorRed"
+        android:onClick="BillPage"
+
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:background="@color/colorPrimaryDark"
+
+
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+
+</LinearLayout>

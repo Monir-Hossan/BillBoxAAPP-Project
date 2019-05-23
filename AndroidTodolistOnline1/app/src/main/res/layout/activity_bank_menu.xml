@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorVt"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context="com.example.dell.androidtodolistonline1.BankMenu">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SELECT PAYMENT OPTION"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#000080"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/RoketButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" VISA "
+        android:textSize="25dp"
+        android:drawableRight="@drawable/visa"
+        android:onClick="PaymentPage"
+        android:textStyle="italic"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+
+        />
+
+
+
+
+    <Button
+        android:id="@+id/CityBankButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" DBBL MOBILE BANKIG"
+        android:textSize="25dp"
+        android:drawableRight="@drawable/roket"
+        android:onClick="PaymentPage"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+
+
+    <Button
+        android:id="@+id/VisaButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CITY BANK"
+        android:textSize="25dp"
+        android:drawableRight="@drawable/city"
+        android:onClick="PaymentPage"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/MasterButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MASTER"
+        android:textSize="25dp"
+        android:drawableRight="@drawable/master"
+        android:onClick="PaymentPage"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        />
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    tools:context="com.example.dell.androidtodolistonline1.StartupActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#000080"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#000080"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="BILLBOX"
+
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#000080"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/electricityButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electricity Bill"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/eleci"
+        android:gravity="center"
+
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:onClick="LoginActivity"
+
+        />
+
+
+
+
+    <Button
+        android:id="@+id/waterButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water Bill"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/wate"
+
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:onClick="LoginActivity"
+        />
+
+
+    <Button
+        android:id="@+id/gasButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gas Bill"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/gas"
+
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:onClick="LoginActivity"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
